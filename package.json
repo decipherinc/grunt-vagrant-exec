@@ -1,0 +1,41 @@
+{
+  "name": "grunt-vagrant-exec",
+  "version": "0.0.0",
+  "description": "Run commands on Vagrant machine",
+  "main": "tasks/vagrant.js",
+  "dependencies": {
+    "child-process-promise": "^1.0.0",
+    "defaults": "^1.0.0",
+    "q": "^1.1.2",
+    "simple-ssh": "^0.8.1",
+    "ssh-config-parser": "^0.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13"
+  },
+  "peerDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "grunt",
+    "task",
+    "gruntplugin",
+    "vagrant",
+    "command",
+    "execute",
+    "guest",
+    "host",
+    "virtualbox",
+    "vm",
+    "vmware"
+  ],
+  "author": "Christopher Hiller <chiller@decipherinc.com>",
+  "license": "MIT",
+  "os": [
+    "!win32"
+  ]
+}
